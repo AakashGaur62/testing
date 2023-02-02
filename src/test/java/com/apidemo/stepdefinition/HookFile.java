@@ -17,11 +17,11 @@ import io.cucumber.java.Scenario;
 
 public class HookFile extends TestBase{
 	
-	/*
-	@BeforeSuite
-	public void startServiceAtSuitLevel() {
-		startService();
-	}*/
+
+	//@BeforeSuite
+	//public void startServiceAtSuitLevel() {
+	//	startService();
+	//}
 	
 	@Before
 	public void startAppium() {
@@ -44,9 +44,9 @@ public class HookFile extends TestBase{
 		LogUtil.info("******"+ scenario.getName() +" was Tested Successfully ******");
 	}
 	
-	/*
-	@AfterSuite
-	public void stopServiceAtSuitLevel() {
-		stopService();
-	}*/
+	
+	//@AfterSuite
+	//public void stopServiceAtSuitLevel() {
+	//	stopService();
+	//}
 }
