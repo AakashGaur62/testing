@@ -41,12 +41,12 @@ public class TestBase {
 		}
 		
 	}
-	/*
-	public void startService() {
-		service = AppiumDriverLocalService.buildDefaultService();
-		service.start();
-		LogUtil.info("Service is started");
-	}*/
+	
+	//public void startService() {
+	//	service = AppiumDriverLocalService.buildDefaultService();
+	//	service.start();
+	//	LogUtil.info("Service is started");
+	//}
 	public void launchAndIntallApp() {
 		sheet = workbook.getSheet("config_data");
 	
@@ -74,11 +74,10 @@ public class TestBase {
 		driver.quit();		
 	}
 	
-	/*
-	public void stopService() {
-		service.stop();
-		LogUtil.info("Srevice Stoped");
-	}
-	/*
+	
+	//public void stopService() {
+	//	service.stop();
+	//	LogUtil.info("Srevice Stoped");
+	//}
 
 }
