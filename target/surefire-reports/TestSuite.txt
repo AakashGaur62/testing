@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 225.641 s <<< FAILURE! - in TestSuite
+runScenario(com.apidemo.runner.Run)  Time elapsed: 8.562 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.apidemo.stepdefinition.WhenStepDefinition
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-B1BN2J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: AndroidDriver
+
+runScenario(com.apidemo.runner.Run)  Time elapsed: 1.373 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.apidemo.stepdefinition.WhenStepDefinition
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-B1BN2J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: AndroidDriver
+
+runScenario(com.apidemo.runner.Run)  Time elapsed: 1.221 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.apidemo.stepdefinition.WhenStepDefinition
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-B1BN2J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: AndroidDriver
+
+runScenario(com.apidemo.runner.Run)  Time elapsed: 9.201 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.apidemo.stepdefinition.WhenStepDefinition
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-B1BN2J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: AndroidDriver
+
+runScenario(com.apidemo.runner.Run)  Time elapsed: 30.602 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.ListView/android.widget.TextView[5]' does not exist in DOM anymore
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-B1BN2J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\aakashgaur\eclipse..., appActivity: com.hmh.api.ApiDemos, appPackage: com.hmh.api, appium-version: 1.15.1, avdArgs: -no-window, databaseEnabled: false, desired: {app: C:\Users\aakashgaur\eclipse..., appActivity: com.hmh.api.ApiDemos, appPackage: com.hmh.api, appium-version: 1.15.1, avdArgs: -no-window, deviceName: Android, isHeadless: true, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, isHeadless: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 835c4fb4-cece-4e61-9263-e8802dc31146
+
+runScenario(com.apidemo.runner.Run)  Time elapsed: 22.562 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.TextView[@text = 'Visibility']}) (tried for 5 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text = 'Visibility']})
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5aac9d67 (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text = 'Visibility']})
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'IN-B1BN2J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: driver.version: AndroidDriver
+
